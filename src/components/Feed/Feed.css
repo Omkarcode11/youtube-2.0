@@ -1,0 +1,52 @@
+.Feed{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+}
+.sectionLeft{
+    left: 0%;
+    width: 20%;
+ background-color: black;
+ border-right: 1px solid silver;
+}
+
+.sectionRight{
+    
+    overflow: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-flow: wrap row;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+@media  screen and (max-width:800px) {
+    .Feed{
+       display: flex;
+       flex-direction: column;
+    }
+    .sectionLeft{
+        width: 100%;
+
+    }
+    .sectionRight{
+        display: flex !important;
+        padding:2rem;
+        justify-content: center !important;
+    }
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+.heading-right{
+    color: white;
+    text-transform: capitalize;
+    width: 100%;
+    margin: 1rem;
+}

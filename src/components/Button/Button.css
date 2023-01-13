@@ -1,0 +1,35 @@
+.btn-left {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.left-section-button {
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.btn-text {
+    margin-left: 1rem !important;
+}
+
+
+@media screen and (max-width:600px) {
+    .btn-left {
+        background-color: rgb(22, 19, 19);
+        border-radius: 2rem;
+    }
+
+}
+
+
+.btn-left:hover{
+    transform: scale(1.1);
+    transition: 0.6s transform cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.side-btn{
+    text-decoration: none;
+}

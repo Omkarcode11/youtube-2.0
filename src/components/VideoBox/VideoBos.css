@@ -1,0 +1,40 @@
+.size{
+    width: 100px  !important;
+    height: 100px !important;
+}
+
+.description{
+    overflow: none;
+}
+
+.view-date{
+    font-size : 0.7rem;
+}
+.channel-like-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.channel-name{
+    align-self: center;
+}
+
+
+.icon-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.btn-outline-light{
+    border: none ;
+}
+
+.read-more{
+    color: rgb(0, 183, 255);
+    cursor: pointer;
+}

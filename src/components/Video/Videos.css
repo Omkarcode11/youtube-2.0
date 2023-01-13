@@ -1,0 +1,24 @@
+.bg-dark{
+    padding: 0.2rem;
+}
+
+.card{
+    background-color: black;
+    color: whitesmoke;
+    width: 18.5rem;
+    margin: 0.5rem;
+
+}
+
+.card-text{
+    color: gray;
+}
+
+.card-img-top{
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+@media screen and (max-width:600px) {
+        
+}

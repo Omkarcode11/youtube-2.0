@@ -1,0 +1,21 @@
+.navbar{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+.navbar-layout{
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+@media screen and (max-width:600px) {
+    .search-bar{
+        width: 13rem;
+        padding: 0%;
+        margin: 0%;
+    }
+}
