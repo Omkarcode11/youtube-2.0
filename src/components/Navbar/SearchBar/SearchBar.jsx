@@ -18,7 +18,7 @@ function search(){
         placeholder="Search.."
         onChange={(e) => setSearchVal(e.target.value)}
       />
-      <Link className="Link" to={`/search/${searchVal}`}>
+      <Link className="Link" to={`/`}>
         <button onClick={search} className="btn btn-dark mx-1" type="submit">
           <svg
             xmlns="http://www.w3.org/2000/svg"
